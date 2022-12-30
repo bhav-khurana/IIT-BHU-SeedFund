@@ -1,0 +1,14 @@
+.intro {
+    margin: 2em auto;
+    position: relative;
+    align-self: center;
+    width: 75%;
+    height: 500px;
+    background: linear-gradient(146.64deg, rgba(255, 255, 255, 0.5) -6.76%, rgba(241, 243, 135, 0.1) 102.96%);
+                backdrop-filter: blur(10px);
+    border-radius: 200px 0;
+}
+
+.introImg {
+    margin: 4em;
+}
