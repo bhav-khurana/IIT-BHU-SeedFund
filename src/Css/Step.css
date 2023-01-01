@@ -3,15 +3,19 @@
     background-color: #FFFCE2;
     margin: 2em auto;
     width: 60%;
+    height: 140px;
 }
 
 .date {
-    margin: 2em 2em 2em 8em;    
+    margin: 2em 2em 2em 8em;
+    /* background-color: orange; */
     font-family: 'Roboto', sans-serif;
 }
 
 .desc {
-    /* margin-right: 8em; */
+    /* background-color: blue; */
+    width: 50%;
+    margin-right: 8em;
     margin-left: 2em;
 }
 
