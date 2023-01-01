@@ -5,13 +5,11 @@ import Timeline from './Component/Timeline';
 import Team from './Component/Team';
 import Mentors from './Component/Mentors';
 import FAQs from './Component/FAQs';
-import Navbar from './Component/Navbar';
 
 
 const App = ()=>{
   return (
     <>
-    <Navbar />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/timeline" component={Timeline} />

@@ -1,10 +1,16 @@
 import React from "react";
 import introImg from '../Images/Sponsor-amico2.png';
+import back from '../Images/back.png';
+import urgentBro from '../Images/urgent-bro.png';
 import '../Css/Home.css'
+import Navbar from "./Navbar";
 
 const Home = ()=>{
     return (
         <>
+        <header>
+        </header>
+        <Navbar />
         <div className="intro">
             <img src={introImg} alt="intro" className="introImg" />
             <div className="introTextTitle">
@@ -21,7 +27,13 @@ a seed funding of INR 25,00,000 against 5% equity.
             <div className="curve"></div>
         </section> */}
         <div className="apply">
-            
+            <img src={back} alt="background" className="back" />
+            <img src={urgentBro} alt="urgent-bro" className="applyImage" />
+            <div className="applyText">Application Deadline : 1 February 2023
+            <div className="applyButton">
+                Apply Now
+            </div>
+            </div>
         </div>
         </>
     )

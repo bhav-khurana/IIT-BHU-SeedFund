@@ -2,17 +2,8 @@
     --primaryColor: #FFE68C
 }
 
-header {
-    position: absolute;
-    width: 32.5%;
-    height: 800px;
-    background-color: var(--primaryColor);
-    
-}
-
 .container {
     position: relative;
-    /* width: 95%; */
     background-color: transparent;
     margin: 0 auto;
     padding: 1em 1em;
