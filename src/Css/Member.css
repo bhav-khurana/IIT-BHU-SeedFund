@@ -1,0 +1,37 @@
+.card {
+    width: 30%;
+    height: 500px;
+    margin: 1em;
+    margin-left: 2em;
+    background-color: #f9f9fc;
+    border-radius: 26px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 80%;
+    background-color: #fff;
+    margin: auto;
+    width: 100%;
+}
+
+.memberName {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 1em;
+    margin: 1.4em auto;
+    background-color: #DAA520;
+    width: 50%;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.designation {
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+}
