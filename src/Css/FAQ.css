@@ -1,0 +1,18 @@
+.question {
+    margin-top: 2.5em;
+    margin-right: 2.5em;
+    color: #DAA520;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.answer {
+    font-size: 1.1rem;
+    margin-top: 1.3em;
+    margin-right: 2.5em;
+    margin-bottom: 2em;
+    font-family: "Inter", sans-serif;
+    line-height: 1.7rem;
+}
