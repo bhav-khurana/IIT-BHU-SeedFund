@@ -1,5 +1,5 @@
 .heading {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     font-size: 3rem;
     font-family: 'Josefin Sans', sans-serif;
@@ -17,6 +17,8 @@
     color: #D3A600;
 }
 
-.governanceCouncil {
+.memberRow {
+    justify-content: center;
     display: flex;
+    margin-bottom: 9em;
 }
