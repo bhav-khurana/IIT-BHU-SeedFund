@@ -16,6 +16,8 @@ const FAQs = ()=>{
                 <FAQ question={"How do I know if I am prepared to apply for the seed fund?"} answer={"We invite you to submit an application for the seed fund if your idea has some proof of concept. Beta testing of the product or service should have already been completed or be in progress by the startup."} />
                 <FAQ question={"Which department students/faculty/alumni can apply?"} answer={"IIT BHU students/faculty/alumni from all programs can apply."} />
                 <FAQ question={"I am an IIT BHU alumni and I graduated last year. Can I apply?"} answer={"IIT BHU Alumni who have graduated in the last 2 years can apply."} />
+                <FAQ question={"What is the selection criteria?"} answer={"One of the most important selection criteria will be whether the startup could have a high probability of receiving subsequent funding from an institutional investor after graduating from the Seed Fund program."} />
+                <FAQ question={"Who can apply?"} answer={"Only students graduating from IIT BHU in the year 2023 can apply now. Students could be Bachelors, or Masters, or IDD, or PhD students. Students who have graduated in the last 2 years can also apply."} />
             </div>
         </div>
         </>
