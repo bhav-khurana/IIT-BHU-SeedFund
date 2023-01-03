@@ -1,0 +1,36 @@
+.nameCard {
+    width: 25%;
+    margin: 2em;
+    height: 400px;
+    background-color: white;
+    border-radius: 26px;
+}
+
+.mentorPic {
+    width: 250px;
+    height: 65%;
+    width: 100%;
+    background-color: #D9D9D9;
+    border-radius: 26px 26px 0 0;
+}
+
+.mentorName {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 1em auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.founder {
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 0.8rem;
+    font-family: 'Jomolhari', serif;
+}
+
+.industry {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Poppins', sans-serif;
+}

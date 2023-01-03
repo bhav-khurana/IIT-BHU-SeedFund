@@ -1,0 +1,14 @@
+.backk {
+    background-color: #FFE68C;
+    margin: 2em auto;
+    width: 90%;
+    padding: 2em;
+    /* height: 800px; */
+    justify-content: center;
+}
+
+.mentors {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
