@@ -19,7 +19,7 @@ const Home = ()=>{
             The IIT BHU Seed Fund aims to foster a startup ecosystem within the IIT BHU community of students, professors, and alumni. The goal of the fund is to prepare the startups for an external
 financing round on graduating from the seed fund scheme. The selected startups will be guided
 by alumni venture capitalists and serial entrepreneurs. This year we will support 5 startups with
-a seed funding of INR 25,00,000 against 5% equity.
+a seed funding of INR 25,00,000.
             </p>
             </div>
         </div>
