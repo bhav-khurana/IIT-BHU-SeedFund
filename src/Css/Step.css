@@ -33,3 +33,30 @@
     margin-bottom: 2em;
     margin-left: 1em;
 }
+@media (max-width:480px) {
+    .step{
+        width: 90%;
+        display: flex;
+        height: min-content;
+        justify-content: start;
+        /* background: red; */
+    }
+    .date{
+        margin-left: 2em;
+        font-size: 0.8rem;
+        /* background: #000; */
+    }
+    .desc{
+        /* background: green; */
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .title{
+        font-size: 0.8rem;
+        /* background: red; */
+    }
+    .subtitle{
+        font-size: 0.8rem;
+        /* background: red; */
+    }
+}

@@ -12,3 +12,10 @@
     justify-content: center;
     margin-top: 2em;
 }
+@media (max-width:480px) {
+    .mentors{
+        flex-direction: column;
+        /* background: red; */
+        align-items: center;
+    }
+}

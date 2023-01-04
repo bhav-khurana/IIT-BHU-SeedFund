@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Step from "./Step";
+// import Step from "./Step";
+import Step from "./Step"
 import '../Css/Timeline.css'
 
 const Timeline = ()=>{

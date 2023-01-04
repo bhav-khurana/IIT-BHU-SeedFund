@@ -6,3 +6,10 @@
     font-weight: 700;
     letter-spacing: 0.06em;
 }
+
+@media (max-width:480px) {
+    .heading{
+        margin-top: 1.5rem !important;
+        font-size: 2rem !important;
+    }
+}

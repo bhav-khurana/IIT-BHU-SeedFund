@@ -10,15 +10,15 @@ const Navbar = ()=>{
                 <div className="logoContainer">
                     <img src={logo} alt="logo" className="logo" />
                 </div>
-                <nav>
-                    <div className="nav">
+                <div className="navContainer">
+                    <div className="nav_some">
                         <NavLink exact to="/" className="navItem" activeClassName="activeItem">Home</NavLink>
                         <NavLink to="/timeline" className="navItem" activeClassName="activeItem">Timeline</NavLink>
                         <NavLink to="/team" className="navItem" activeClassName="activeItem">Team</NavLink>
                         <NavLink to="/mentors" className="navItem" activeClassName="activeItem">Mentors</NavLink>
                         <NavLink to="/faqs" className="navItem" activeClassName="activeItem">FAQs</NavLink>
                     </div>
-                </nav>
+                </div>
             </div>
         </>
     )

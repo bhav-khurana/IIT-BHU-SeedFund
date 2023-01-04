@@ -35,3 +35,24 @@
     margin: auto;
     font-weight: 500;
 }
+@media (max-width:480px) {
+    .card{
+        height: fit-content;
+        /* height: 50vh; */
+        width: 80%;
+        
+        /* background: green; */
+    }
+    .memberName{
+        /* background: #000; */
+        width: 70%;
+    }
+    .designation{
+        /* background: #000; */
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .image{
+
+    }
+}

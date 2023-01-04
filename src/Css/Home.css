@@ -1,9 +1,8 @@
 header {
     position: absolute;
     width: 32.5%;
-    height: 800px;
-    background-color: var(--primaryColor);
-    
+    height: 700px;
+    background-color: #FFE68C;
 }
 
 .intro {
@@ -18,9 +17,10 @@ header {
     border-radius: 200px 0;
 }
 
-.introImg {
+.cont{
     margin: 4em;
 }
+
 
 .introTextTitle {
     font-family: 'Josefin Sans', sans-serif;
@@ -41,8 +41,14 @@ header {
 .apply {
     justify-content: space-between;
     display: flex;
-    margin: 9em auto;
+    /* margin: 9em auto; */
     margin-bottom: 0;
+    background: url("../Images/back.png");
+    background-repeat: no-repeat;
+    /* background-size: ; */
+    background-size: cover;
+    /* height: 40vh; */
+    
 }
 
 .back {
@@ -52,7 +58,9 @@ header {
 }
 
 .applyImage {
-    position: relative;
+    /* position: relative; */
+    margin-left: 2em;
+
 }
 
 .applyText {
@@ -77,4 +85,146 @@ header {
     letter-spacing: 1px;
     border-radius: 55px;
     background-color: #F5E195;
+}
+
+@media screen and (max-width:1380px) {
+    .intro {
+        margin-left: auto;
+        height: 350px;
+        width: 80%;
+    }
+    .introTextTitle {
+        font-size: 2rem;
+    }
+    .introText {
+        font-size: 1.1rem;
+        margin-right: 1em;
+    }
+    .back {
+        height: 40%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .introImg {
+        margin-top: 7em;
+        width: 30%;
+        height: 50%;
+    }
+    .intro {
+        margin-left: auto;
+        width: 80%;
+        height: auto;
+    }
+    .introTextTitle {
+        font-size: 2rem;
+    }
+    .introText {
+        font-size: 1.1rem;
+        margin-right: 1em;
+    }
+    .back {
+        height: 32%;
+    }
+    .applyText {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .introTextTitle {
+        font-size: 1.5rem;
+    }
+    .introText {
+        font-size: 0.9rem;
+    }
+    .cont{
+        width: 30%;
+    }
+    .introImg {
+        width: 100%;
+        margin-top: 7em;
+    }
+    .back {
+        width: 100%;
+    }
+    .applyText {
+        font-size: 2rem;
+    }
+    .applyImage {
+        width: 40%;
+        height: 42%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .intro {
+        margin: auto;
+        height: 300px;
+        width: 90%;
+    }
+    .introTextTitle {
+        font-size: 1rem;
+    }
+    .introText {
+        font-size: 0.75rem;
+        margin-right: 1em;
+    }
+}
+@media(max-width:480px){
+    .intro{
+        width: 100%;
+        flex-direction: column;
+        /* background: yellow; */
+        align-items: center;
+        text-align: center;
+        height:min-content;
+        border-radius: 10% 0px;
+        padding: 0%;
+        margin-top: 0;
+        
+    }
+    header {
+        margin: auto;
+        height: 800px;
+    }
+    .cont{
+        width: 70%;
+    }
+    .introImg{
+        margin-top: 0;
+    }
+    .introTextTitle{
+        margin-top: 0;
+    }
+    .introText{
+        margin-top: 0;
+    }
+    .applyImage{
+        margin-top: 1em;
+        margin-bottom: 0;
+        width: 50%;
+        /* background: #000; */
+    }
+    .apply{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .applyText{
+        letter-spacing: normal;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 0;
+        width: 60%;
+        /* background: green; */
+
+    }
+    .applyButton{
+        letter-spacing: normal;
+        font-size: 0.6rem;
+        width: 50%;
+    }
+    
+
 }
