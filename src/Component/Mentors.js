@@ -9,7 +9,7 @@ const Mentors = ()=>{
         <Navbar />
         <div className="heading">Mentors</div>
         <div className="backk">
-            <div className="mentors">
+            {/* <div className="mentors">
                 <Mentor name={"Lorem Ipsum"} founder={"Founder at XX"} industry={"Industry: Education"} />
                 <Mentor name={"Lorem Ipsum"} founder={"Founder at XX"} industry={"Industry: Education"} />
                 <Mentor name={"Lorem Ipsum"} founder={"Founder at XX"} industry={"Industry: Education"} />
@@ -26,6 +26,9 @@ const Mentors = ()=>{
                 <Mentor name={"Lorem Ipsum"} founder={"Founder at XX"} industry={"Industry: Education"} />
                 <Mentor name={"Lorem Ipsum"} founder={"Founder at XX"} industry={"Industry: Education"} />
                 <Mentor name={"Lorem Ipsum"} founder={"Founder at XX"} industry={"Industry: Education"} />
+            </div> */}
+            <div className="text">
+                The seed fund has mentors from diverse fields and who are industry stalwarts. The list of mentors will be updated soon.
             </div>
         </div>
         </>

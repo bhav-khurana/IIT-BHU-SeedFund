@@ -12,6 +12,11 @@
     justify-content: center;
     margin-top: 2em;
 }
+
+.text {
+    font-family: 'Roboto', sans-serif;
+}
+
 @media (max-width:480px) {
     .mentors{
         flex-direction: column;
