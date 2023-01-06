@@ -29,7 +29,7 @@ const Team = () => {
         <div className="subHeading">Selection Committee</div>
         <div className="memberRow">
             <Member imageUrl={atulSinha} name={"Atul Sinha"} designation={"Advisor and Board Member, IIT BHU ‘83 Electronics"} />
-            <Member imageUrl={ganeshRengaswamy} name={"Ganesh Rengaswamy"} designation={"Managing Partner, Quona Capital, IIT BHU ‘XX Chemicali"} />
+            <Member imageUrl={ganeshRengaswamy} name={"Ganesh Rengaswamy"} designation={"Managing Partner, Quona Capital, IIT BHU ‘96 Chemical"} />
             <Member imageUrl={rajYavatkar} name={"Raj Yavatkar"} designation={"CTO, Juniper Networks, IIT BHU ‘82, Electronics "} />
         </div>
         <div className="memberRow">
