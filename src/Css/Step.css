@@ -1,6 +1,6 @@
 .step {
     display: flex;
-    background-color: #FFFCE2;
+    background-color: #feefae;
     margin: 2em auto;
     width: 60%;
     height: 140px;
@@ -30,7 +30,7 @@
 .subtitle {
     font-family: 'Roboto', sans-serif;
     line-height: 1.2em;
-    color: #667085;
+    color: #48505f;
     margin-bottom: 2em;
     margin-left: 1em;
 }

@@ -18,6 +18,7 @@ const FAQs = ()=>{
                 <FAQ question={"I am an IIT BHU alumni and I graduated last year. Can I apply?"} answer={"IIT BHU Alumni who have graduated in the last 2 years can apply."} />
                 <FAQ question={"What is the selection criteria?"} answer={"One of the most important selection criteria will be whether the startup could have a high probability of receiving subsequent funding from an institutional investor after graduating from the Seed Fund program."} />
                 <FAQ question={"Who can apply?"} answer={"Only students graduating from IIT BHU in the year 2023 can apply now. Students could be Bachelors, or Masters, or IDD, or PhD students. Students who have graduated in the last 2 years can also apply."} />
+                <FAQ question={"Which sectors is the IIT BHU seed fund focusing on?"} answer={"We are focussed to fund startups in the following sectors \n1. Mobility\n2. Climate tech\n3. Agri tech and Agri supply chain\n4. Fintech Applications\n5. Enterprise Software (This includes solutions for analytics, networking, cybersecurity, etc.)\n6. Robotics and AI\n7. Digital Economy Solutions\n8. Waste management and water purification \n9. Defence Tech."} />
             </div>
         </div>
         </>

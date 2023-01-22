@@ -32,7 +32,7 @@ const Home = ()=>{
             <img src={urgentBro} alt="urgent-bro" className="applyImage" />
             <div className="applyText">Application Deadline : 1 February 2023
             <div className="applyButton">
-                Apply Now
+                <a href="https://forms.gle/v4JuULMoXhMWU3CN9" className="applyLink">Apply Now</a>
             </div>
             </div>
         </div>

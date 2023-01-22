@@ -88,6 +88,11 @@ header {
     background-color: #F5E195;
 }
 
+.applyLink {
+    text-decoration: none;
+    color: black;
+}
+
 @media screen and (max-width:1380px) {
     .intro {
         margin-left: auto;
