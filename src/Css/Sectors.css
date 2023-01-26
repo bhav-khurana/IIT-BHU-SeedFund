@@ -1,0 +1,43 @@
+.sectorBackground {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    /* align-items: le; */
+}
+
+.sectorRow {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.sector1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+    font-size: 1.7rem;
+    width: 30%;
+    text-align: left;
+}
+
+.sector2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+    font-size: 1.7rem;
+    width: 30%;
+    text-align: left;
+}
+
+.sectorLogo {
+    width: 7%;
+}
+
+@media(max-width:480px){
+    .sector1 {
+        font-size: 1em;
+    }
+    .sector2 {
+        font-size: 1em;
+    }
+}

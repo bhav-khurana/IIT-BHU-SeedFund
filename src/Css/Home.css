@@ -109,6 +109,9 @@ header {
     .back {
         height: 40%;
     }
+    .apply {
+        margin-top: 14em;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -216,6 +219,7 @@ header {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: 3em;
     }
     .applyText{
         letter-spacing: normal;

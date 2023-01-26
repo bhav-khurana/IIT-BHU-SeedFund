@@ -12,6 +12,6 @@ const FAQ = ({question, answer})=>{
         </div>
         </>
     )
-}
+};
 
 export default FAQ;

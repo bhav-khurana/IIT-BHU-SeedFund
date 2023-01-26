@@ -7,6 +7,10 @@
     letter-spacing: 0.06em;
 }
 
+.link {
+    color: #48505f;
+}
+
 @media (max-width:480px) {
     .heading{
         margin-top: 1.5rem !important;

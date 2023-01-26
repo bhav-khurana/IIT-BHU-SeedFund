@@ -3,6 +3,7 @@ import introImg from '../Images/Sponsor-amico2.png';
 import urgentBro from '../Images/urgent-bro.png';
 import '../Css/Home.css'
 import Navbar from "./Navbar";
+import Sectors from "./Sectors";
 
 const Home = ()=>{
     return (
@@ -24,9 +25,7 @@ const Home = ()=>{
             </p>
             </div>
         </div>
-        {/* <section>
-            <div className="curve"></div>
-        </section> */}
+        <Sectors />
         <div className="apply">
             {/* <img src={back} alt="background" className="back" /> */}
             <img src={urgentBro} alt="urgent-bro" className="applyImage" />
