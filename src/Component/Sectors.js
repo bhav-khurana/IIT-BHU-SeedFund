@@ -17,10 +17,10 @@ import medical from '../Images/medical.svg'
 const Sectors = () => {
     return (
         <>
+        <div className="sectorBackground">
         <div className="heading">
             Potential Sectors
         </div>
-        <div className="sectorBackground">
             <div className="sectorRow">
                 <img src={greenTechnology} alt="Green Technology" className="sectorLogo" />
                 <div className="sector1">

@@ -33,7 +33,22 @@
     width: 7%;
 }
 
+@media(max-width:1380px){
+    .sectorBackground {
+        margin-top: 10rem;
+    }
+}
+
+@media(max-width:1200px){
+    .sectorBackground {
+        margin-top: 13rem;
+    }
+}
+
 @media(max-width:480px){
+    .sectorBackground {
+        margin-top: 7rem;
+    }
     .sector1 {
         font-size: 1em;
     }

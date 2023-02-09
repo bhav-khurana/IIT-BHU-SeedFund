@@ -3,7 +3,7 @@
     background-color: #feefae;
     margin: 2em auto;
     width: 60%;
-    height: 140px;
+    height: min-content;
 }
 
 .date {
