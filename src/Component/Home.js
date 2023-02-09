@@ -29,7 +29,7 @@ const Home = ()=>{
         <div className="apply">
             {/* <img src={back} alt="background" className="back" /> */}
             <img src={urgentBro} alt="urgent-bro" className="applyImage" />
-            <div className="applyText">Application Deadline : 15 February 2023
+            <div className="applyText">Application Deadline : 25 February 2023
             <div className="applyButton">
                 <a href="https://forms.gle/v4JuULMoXhMWU3CN9" className="applyLink">Apply Now</a>
             </div>

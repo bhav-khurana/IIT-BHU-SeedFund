@@ -24,7 +24,7 @@
     margin: 1.4em auto;
     background-color: #DAA520;
     width: 50%;
-    height: 50px;
+    height: min-content;
     border-radius: 12px;
 }
 

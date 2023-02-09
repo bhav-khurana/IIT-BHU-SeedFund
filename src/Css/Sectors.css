@@ -1,5 +1,6 @@
 .sectorBackground {
     margin: auto;
+    margin-top: 9rem;
     justify-content: center;
     text-align: center;
     /* align-items: le; */
@@ -35,13 +36,13 @@
 
 @media(max-width:1380px){
     .sectorBackground {
-        margin-top: 10rem;
+        margin-top: 15rem;
     }
 }
 
 @media(max-width:1200px){
     .sectorBackground {
-        margin-top: 13rem;
+        margin-top: 16rem;
     }
 }
 
